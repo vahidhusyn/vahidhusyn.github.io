@@ -1,0 +1,160 @@
+h1,h2,h3{
+    text-shadow: 4px 4px 25px rgb(0, 0, 0);
+    text-shadow: 0px 0px 25px rgba(255, 255, 255, 0.776);
+    /* -webkit-text-stroke: 2px rgba(34, 22, 22, 0.576); */
+}
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+a:link{
+    /* text-decoration: underline; */
+    color: #ffffff;
+    text-decoration: none;
+    /* text-decoration-color: antiquewhite; */
+}
+
+a:hover{
+    color: rgb(194, 194, 194);
+}
+
+
+
+/* section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+} */
+
+img:hover {
+    /* max-width: 100%;
+    height: auto; */
+    filter: drop-shadow(0px 10px 10px #000000);
+    
+
+}
+
+.img-blog{
+    text-align: center;
+    height: 250px;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-padding {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+.section-title .line {
+    width: 60px;
+    height: 4px;
+    background-color: var(--c-brand);
+    margin: 16px auto 24px auto;
+}
+
+.section-title p {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hero {
+    /* background-color: #146e26; */
+    background-image: linear-gradient(-20deg, #2b5876 0%, #834e80 100%);
+    color: #ffffff;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* background: url(src/images/p.jpg); */
+}
+
+
+#my-projects{
+    background-image: linear-gradient(-20deg, #834e80 0%, #4e4376 100%);
+
+}
+
+
+#blog{
+    background-image: linear-gradient(60deg, #29323ce8 0%, #485563f3 100%);
+
+    /* background-image: r */
+
+}
+
+
+#about{
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    line-height: 2rem;
+
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+  
+  }
+  
+  row{
+    width: 100%;
+  }
+  
+  .flex-item {
+    background: tomato;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+
+.projects{
+    background-color: rgba(0, 0, 0, 0.527);
+    box-shadow: 12px 12px 2px 1px rgba(30, 30, 30, 0.453);
+}
+
+.aboutme{
+    margin-top: 4rem;
+}
+
+.heroimg{
+    filter: drop-shadow(0px 10px 50px #000000);
+    filter: drop-shadow(0px 10px 10px #000000b5);
+    
+}
+
+.logo:hover{
+    text-shadow: 4px 4px 25px rgba(120, 243, 89, 1);
+
+}
+
+.nav-item:hover{
+    text-shadow: 4px 4px 25px rgba(120, 243, 89, 1);
+
+}
+
